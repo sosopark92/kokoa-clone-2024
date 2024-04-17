@@ -1,3 +1,3 @@
-#Kokoa Clone 2024
+# Kokoa Clone 2024
 
-My first clone coding using CSS.
+My first clone coding using html&CSS.
