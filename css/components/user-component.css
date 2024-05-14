@@ -1,0 +1,36 @@
+
+.user-component{
+    display: block;
+    position: absolute;
+    top: 200px;
+}
+
+.user-component__column{
+    display:flex;
+    align-items: center;
+}
+
+.user-component__profile{
+    width:72px;
+    height:72px;
+    border-radius: 28px;
+    margin-right: 20px;
+}
+
+.user-component__profile--xl{
+    width:80px;
+    height:80px;
+}
+
+.user-component__name{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.user-component__desc{
+    margin-top:8px;
+    color:#656565;
+    font-size: 0.9rem;
+
+}
+
