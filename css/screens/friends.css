@@ -1,4 +1,4 @@
-#container{
+#friends-display{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -6,8 +6,8 @@
 
 #friends-display-link{
     display: flex;
-    position: relative;
-    top:112px;
+    /* position: relative;
+    top:112px; */
     width:100%;
     padding: 16px;
     font-size:1rem;
@@ -19,4 +19,26 @@
 #friends-display-link i{
     color: rgb(205, 205, 205);
     padding: 0px 8px;
+}
+
+.friends-screen{
+    padding: 0px var(--horizontal-space);
+}
+
+
+.friends-screen__channel{
+    margin: 32px 0px;
+    padding-top: 16px;
+    border-top: 0.5px solid;
+    border-color: #bababa;
+}
+
+.friends-screen__channel-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.friends-screen__channel i{
+    color: var(--text--grey);
 }

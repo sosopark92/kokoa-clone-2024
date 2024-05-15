@@ -1,7 +1,7 @@
 .screen-header{
   display:flex;
-  position: fixed;
-  top: 40px;
+  /* position: fixed;
+  top: 40px; */
   width: 100%;
   padding: 12px var(--horizontal-space);
   align-items: center; 
