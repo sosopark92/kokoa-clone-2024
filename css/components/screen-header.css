@@ -3,7 +3,7 @@
   /* position: fixed;
   top: 40px; */
   width: 100%;
-  padding: 12px var(--horizontal-space);
+  padding: 20px var(--horizontal-space);
   align-items: center; 
   box-sizing: border-box;
   justify-content: space-between;
@@ -18,6 +18,7 @@
 .screen-header__icons{
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 

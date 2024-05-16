@@ -1,8 +1,10 @@
 
 .user-component{
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
+    padding: 16px 0px;
     /* position: absolute;
     top: 200px; */
 }
@@ -21,13 +23,13 @@
 .user-component__profile--xl{
     width:80px;
     height:80px;
-    border-radius: 28px;
+    border-radius: 30px;
 }
 
 .user-component__profile--sm{
     width:70px;
     height:70px;
-    border-radius: 24px;
+    border-radius: 26px;
 }
 
 .user-component__name--bold{
@@ -47,4 +49,14 @@
 
 .user-component__column:last-child{
     color: var(--text--grey);
+}
+
+.user-component__column-desc{
+    /* display:flex; */
+    /* flex-direction: column; */
+}
+
+.user-component__time{
+    display: block;
+    margin-bottom: 8px;
 }
