@@ -51,12 +51,12 @@
     color: var(--text--grey);
 }
 
-.user-component__column-desc{
-    /* display:flex; */
-    /* flex-direction: column; */
+.user-component__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .user-component__time{
-    display: block;
-    margin-bottom: 8px;
+    margin: 4px;
 }
