@@ -1,0 +1,129 @@
+.find-icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 20px;
+}
+
+.find-icons__icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.find-icons__icon i{
+    font-size: 40px;
+}
+
+.find-icons__icon span{
+    margin-top: 16px;
+}
+
+/*recommended friends*/
+
+.recommended-friends{
+    margin: 20px 20px;
+    padding: 20px 0;
+    border-top: var(--border-line);
+    border-bottom: var(--border-line);
+
+}
+
+.recommended-friends__title{
+    color: var(--text--grey);
+}
+
+.recommended-friends span{
+    display: block;
+    text-align: center;
+    margin: 100px 0 200px 0;
+    font-size: 20px;
+    color: var(--text--grey);
+}
+
+.open-chat__header{
+    display: flex;
+    margin: 0 20px;
+    justify-content: space-between;
+    color: var(--text--grey);
+}
+
+.open-chat__header span{
+    color: rgb(161, 161, 161);
+    margin-bottom: 24px;
+}
+
+.open-chat__post{
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    padding: 20px 0;
+}
+
+.open-chat__post__title{
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.open-chat__post__hashtags{
+    color: var(--text--grey);
+    margin-bottom: 8px;
+}
+
+.open-chat__post__members{
+    display: flex;
+    align-items: center;
+}
+
+.open-chat__post__members img{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.open-chat__post__members .divider{
+    width:1px;
+    height: 12px;
+    margin: 0 8px;
+    background-color: var(--text--grey);
+}
+
+.open-chat__post__members-status{
+    color: #ffb0e0;
+}
+
+.open-chat__post__photo{
+    position: relative;
+}
+
+
+.open-chat__post__photo img{
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.open-chat__post__heart-count{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 4px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 12px;
+    right: 8px;
+    font-size: 14px;
+}
+
+.open-chat__post__heart-count span{
+    margin: 0 4px;
+}
+
+
+.open-chat__post__border{
+    border-top: var(--border-line);
+}

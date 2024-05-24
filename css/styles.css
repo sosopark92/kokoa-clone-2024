@@ -9,7 +9,8 @@
 @import "components/badges.css";
 /* Screens */
 @import "screens/login.css";
-@import "screens/friends-screen.css";
+@import "screens/friends.css";
+@import "screens/find.css";
 
 
 body{

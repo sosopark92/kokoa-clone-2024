@@ -3,7 +3,7 @@
   /* position: fixed;
   top: 40px; */
   width: 100%;
-  padding: 20px var(--horizontal-space);
+  padding: 20px 20px;
   align-items: center; 
   box-sizing: border-box;
   justify-content: space-between;
@@ -23,5 +23,5 @@
 
 
 .screen-header__icons span{
- padding: 0px 12px;
+ padding: 0px 8px;
 }
