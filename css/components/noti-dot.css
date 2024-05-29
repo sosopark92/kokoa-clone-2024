@@ -1,0 +1,15 @@
+.fa-gear{
+    position:relative;
+}
+
+.notification__dot{
+    background-color: tomato;
+    width:5px;
+    height: 5px;
+    display: flex;
+    border-radius: 50%;
+    /* position relative를 기준으로 함*/
+    position:absolute;
+    left: 18px;
+    bottom: 10px;
+}
