@@ -1,3 +1,46 @@
 .more-screen{
     margin: 0 20px;
 }
+
+.user-component__column div i{
+    color:black;
+}
+
+.more-suggestions{
+    margin: 40px 20px;
+    border-top: var(--border-line);
+}
+
+.more-suggestions__title{
+    font-weight:500;
+    padding: 20px 0;
+}
+
+.more-suggestions__icons{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    width: 65%
+}
+
+.more-suggestions__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-suggestions__icon-img{
+    width: 60px;
+    height: 60px;
+    background-color: var(--yellow);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.more-suggestions__icon-img i{
+    font-size: 28px;
+    color: white;
+}
