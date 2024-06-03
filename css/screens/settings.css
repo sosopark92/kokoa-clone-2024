@@ -1,0 +1,37 @@
+.settings-screen{
+    margin: 0 20px;
+}
+
+.settings-btn{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 20px;
+    padding-bottom: 20px;
+    border-bottom: var(--border--line__light);
+    font-size: 18px;
+    color: var(--text--grey__dark);
+}
+
+.settings-btn i{
+    margin-right: 12px;
+    font-size: 20px;
+}
+
+.settings-btn__column span{
+    color: var(--text--grey);
+    margin-right: 12px;
+}
+
+.settings-btn:last-child{
+    border-bottom:0px;
+}
+
+.settings-list{
+    border-bottom: 0.5px solid #c7c6c6;
+}
+
+.settings-btn__column{
+    display:flex;
+    align-items: center;
+}

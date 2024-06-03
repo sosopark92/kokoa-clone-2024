@@ -1,6 +1,8 @@
 :root {
     --yellow: #fae100;
     --horizontal-space: 20px;
+    --text--grey__dark: #484848;
     --text--grey: #6c6c6c;
     --border-line: 0.5px solid #c7c6c6;
+    --border--line__light: 0.5px solid #eaeaea;
 }
