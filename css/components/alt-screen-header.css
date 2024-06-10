@@ -3,9 +3,9 @@
   /* position: fixed;
   top: 40px; */
   /* width: 100%; */
-  padding: 20px 20px;
-  align-items: center; 
+  padding: 20px 20px; 
   /* box-sizing: border-box; */
+  align-items: center;
   justify-content: center;
 }
 
@@ -14,10 +14,21 @@
     font-weight: 600;
 }
 
+.alt-header__column{
+    width: 33%;
+}
+
 .alt-header__column:first-child{
     margin-right: auto;
 }
 
 .alt-header__column:last-child{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     margin-left: auto;
+}
+
+.alt-header__column span:last-child{
+    margin-left: 20px;
 }

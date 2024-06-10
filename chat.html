@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body id="chat-screen">
+    <head>
+      <link rel="stylesheet" href="css/styles.css" />
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Chat-Kokoa Talk</title>
+    </head>
+
+    <!--BEM 규칙을 따름-->
+
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fa-solid fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="aalt-header__column">
+        <h1 class="alt-header__title">Sunflower</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+        <span><i class="fa-solid fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="chat-screen">
+      <div class="chat_timestamp">Monday, June 10, 2024</div>
+      <div class="message-row">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/KakaoTalk_logo.svg/2500px-KakaoTalk_logo.svg.png"
+        />
+        <div class="message-row_content">
+          <span class="message-author">Sunflower</span>
+          <div class="message-text">
+            <span class="message_bubble">Hey!</span>
+            <span class="message_time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row__own">
+        <div class="message-row_content">
+          <div class="message-text">
+            <span class="message_bubble">Hey, What's up?</span>
+            <span class="message_time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--script는 항상 마지막에 body 태그 닫기 직전-->
+    <script
+      src="https://kit.fontawesome.com/46f736be11.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
