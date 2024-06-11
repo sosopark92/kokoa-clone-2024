@@ -75,3 +75,62 @@
     flex-direction: row-reverse;
 }
 
+.write-message{
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    background-color: white;
+    padding: 8px 12px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+ .write-message__column:first-child{
+    display: flex;
+    justify-content: center;
+    width:8%;
+    color: var(--text--grey);
+}
+
+.write-message__column:last-child{
+    width:92%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.write-message__column input{
+    width:100%;
+    position: relative;
+    padding: 8px;
+    border-radius: 20px;
+    border: solid 0.5px;
+    border-color: #c7c6c6;
+}
+
+.write-message__icons{
+    position: absolute;
+    margin-right: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.write-message__icons button {
+    border: none;
+    background-color: var(--yellow);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.write-message__icons > i {
+    color: var(--text--grey);
+    margin-right: 8px;
+}
+
+.write-message__icons button:focus,
+.write-message__icons button:active{
+    outline:none;
+}
